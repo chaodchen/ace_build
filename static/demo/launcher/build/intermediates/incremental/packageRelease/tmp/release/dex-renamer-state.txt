@@ -1,0 +1,4 @@
+#Wed Jun 07 10:09:18 CST 2023
+base.0=/home/chaod/Desktop/0x02_Android/demo/launcher/build/intermediates/transforms/dexMerger/release/0
+renamed.0=classes.dex
+path.0=classes.dex

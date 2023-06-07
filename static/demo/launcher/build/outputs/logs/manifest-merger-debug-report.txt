@@ -1,0 +1,335 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:3:1-15:12
+INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:3:1-15:12
+INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:3:1-15:12
+INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:3:1-15:12
+MERGED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:3:1-86:12
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\c22afeda3479ccce1d2be50555721ba7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\689b55d5f711b19d8e12c44e3fc7ca9c\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\05329becefb4f6e635b49a4bb941101a\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\1e0e6b48f2b68e67aa271cd6f8f217bf\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\c7a65fc2cc68195a9349e54a22e881e4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\6e6d59687dcc5f89e11027c1c5411fa4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\bdf31fe3461d772d21217625b93f3b16\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\8143dd5bd3f0ab8dde9bb37184b0cf12\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\f1f9acd0ad429880790b61d15dfc1ff2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\ffe214273ddaeeed44a120eef088d993\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\62ff51ffabdf10769fae1ccaea955dc1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\6461dedffc02b9f8cbe520db820ae9a4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\89f8535dc5943054c9ff1d6b6dde08b6\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\95bec44aae4c321f9ba494098b89d2a5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\66b83b370597d1e00b6fca1786dc9ea2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\8e25d60ea48a9e629c5371f6bec23cfd\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\800a9d5ae6565c96f10039b31d6b0cc8\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\8cf85867cc46c0c93c134957adecc952\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\aefff09d79a288c4d80a35c63057c27c\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\73345a1b90eb1d6524adb3366f0bd0cb\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\ded28ef9486356207433877458970599\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\8281ab0ca2e9d6aa344d8ce1c5cc497d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\abc1837279fb0cd3aef1582c2cbe2ab2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\4b9e2c5c755b4a418ec407925e01160f\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\1b8523710bfe7c7ed2e3d8a4b99eb941\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\0eee3e3e424b6001e94c17d395e5e2b4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\f03123380c45f7b784e047d9f2c7133e\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:3:1-15:12
+INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:3:1-15:12
+INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:3:1-15:12
+	package
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:3:70-96
+		INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:3:1-15:12
+		INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:3:97-143
+	android:versionCode
+		INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:3:1-15:12
+		INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:3:11-69
+	android:installLocation
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:3:144-184
+supports-screens
+ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:4:3-163
+	android:largeScreens
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:4:78-105
+	android:smallScreens
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:4:21-48
+	android:normalScreens
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:4:49-77
+	android:xlargeScreens
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:4:106-134
+	android:anyDensity
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:4:135-160
+application
+ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:5:3-7:17
+MERGED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-84:19
+MERGED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-84:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\bdf31fe3461d772d21217625b93f3b16\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\bdf31fe3461d772d21217625b93f3b16\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\89f8535dc5943054c9ff1d6b6dde08b6\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\89f8535dc5943054c9ff1d6b6dde08b6\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\8cf85867cc46c0c93c134957adecc952\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\8cf85867cc46c0c93c134957adecc952\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\aefff09d79a288c4d80a35c63057c27c\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\aefff09d79a288c4d80a35c63057c27c\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\73345a1b90eb1d6524adb3366f0bd0cb\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\73345a1b90eb1d6524adb3366f0bd0cb\AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\89f8535dc5943054c9ff1d6b6dde08b6\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:5:16-52
+	android:icon
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:5:53-84
+meta-data#unity.builder
+ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:6:5-79
+	android:value
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:6:45-76
+	android:name
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:6:16-44
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:8:3-77
+	android:name
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:8:20-74
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:9:3-65
+MERGED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-67
+MERGED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:9:20-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:10:3-95
+	android:name
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:10:20-76
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:11:3-75
+	android:name
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:11:20-72
+uses-permission#com.android.permission.GET_INSTALLED_APPS
+ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:13:3-79
+	android:name
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml:13:20-76
+uses-sdk
+INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+MERGED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-11:41
+MERGED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-11:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\c22afeda3479ccce1d2be50555721ba7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\c22afeda3479ccce1d2be50555721ba7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\689b55d5f711b19d8e12c44e3fc7ca9c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\689b55d5f711b19d8e12c44e3fc7ca9c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\05329becefb4f6e635b49a4bb941101a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\05329becefb4f6e635b49a4bb941101a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\1e0e6b48f2b68e67aa271cd6f8f217bf\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\1e0e6b48f2b68e67aa271cd6f8f217bf\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\c7a65fc2cc68195a9349e54a22e881e4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\c7a65fc2cc68195a9349e54a22e881e4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\6e6d59687dcc5f89e11027c1c5411fa4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\6e6d59687dcc5f89e11027c1c5411fa4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\bdf31fe3461d772d21217625b93f3b16\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\bdf31fe3461d772d21217625b93f3b16\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\8143dd5bd3f0ab8dde9bb37184b0cf12\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\8143dd5bd3f0ab8dde9bb37184b0cf12\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\f1f9acd0ad429880790b61d15dfc1ff2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\f1f9acd0ad429880790b61d15dfc1ff2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\ffe214273ddaeeed44a120eef088d993\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\ffe214273ddaeeed44a120eef088d993\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\62ff51ffabdf10769fae1ccaea955dc1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\62ff51ffabdf10769fae1ccaea955dc1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\6461dedffc02b9f8cbe520db820ae9a4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\6461dedffc02b9f8cbe520db820ae9a4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\89f8535dc5943054c9ff1d6b6dde08b6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\89f8535dc5943054c9ff1d6b6dde08b6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\95bec44aae4c321f9ba494098b89d2a5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\95bec44aae4c321f9ba494098b89d2a5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\66b83b370597d1e00b6fca1786dc9ea2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\66b83b370597d1e00b6fca1786dc9ea2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\8e25d60ea48a9e629c5371f6bec23cfd\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\8e25d60ea48a9e629c5371f6bec23cfd\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\800a9d5ae6565c96f10039b31d6b0cc8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\800a9d5ae6565c96f10039b31d6b0cc8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\8cf85867cc46c0c93c134957adecc952\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\8cf85867cc46c0c93c134957adecc952\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\aefff09d79a288c4d80a35c63057c27c\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\aefff09d79a288c4d80a35c63057c27c\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\73345a1b90eb1d6524adb3366f0bd0cb\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\73345a1b90eb1d6524adb3366f0bd0cb\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\ded28ef9486356207433877458970599\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\ded28ef9486356207433877458970599\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\8281ab0ca2e9d6aa344d8ce1c5cc497d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\8281ab0ca2e9d6aa344d8ce1c5cc497d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\abc1837279fb0cd3aef1582c2cbe2ab2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\abc1837279fb0cd3aef1582c2cbe2ab2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\4b9e2c5c755b4a418ec407925e01160f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\4b9e2c5c755b4a418ec407925e01160f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\1b8523710bfe7c7ed2e3d8a4b99eb941\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\1b8523710bfe7c7ed2e3d8a4b99eb941\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\0eee3e3e424b6001e94c17d395e5e2b4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\0eee3e3e424b6001e94c17d395e5e2b4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\f03123380c45f7b784e047d9f2c7133e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\f03123380c45f7b784e047d9f2c7133e\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\launcher\src\main\AndroidManifest.xml
+uses-feature#0x00030000
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-51
+uses-feature#android.hardware.vulkan.version
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-55
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-72
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:9-52:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-50
+	android:launchMode
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-48
+	android:exported
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-36
+	android:resizeableActivity
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-47
+	android:configChanges
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-194
+	android:theme
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-54
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:27-74
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-48:40
+	android:value
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:17-37
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:17-57
+meta-data#android.notch_support
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-51:40
+	android:value
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:17-37
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:17-53
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-56:33
+	android:value
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-30
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:9-59:36
+	android:value
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-47
+meta-data#unity.launch-fullscreen
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:9-62:36
+	android:value
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-51
+meta-data#unity.allow-resizable-window
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:9-65:37
+	android:value
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-34
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-56
+meta-data#notch.config
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:9-68:50
+	android:value
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-47
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-40
+meta-data#unity.build-id
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:9-71:68
+	android:value
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:13-65
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-42
+receiver#com.unity.androidnotifications.UnityNotificationManager
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:9-75:40
+	android:exported
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:13-37
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-83
+receiver#com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:9-83:20
+	android:enabled
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:13-36
+	android:exported
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-97
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:13-82:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:17-79
+	android:name
+		ADDED from [:unityLibrary] C:\Users\v_chaodchen\Desktop\000000\4000_Android\aceimg\andProp\demo\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:25-76
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\bdf31fe3461d772d21217625b93f3b16\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\aefff09d79a288c4d80a35c63057c27c\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\aefff09d79a288c4d80a35c63057c27c\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\73345a1b90eb1d6524adb3366f0bd0cb\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\73345a1b90eb1d6524adb3366f0bd0cb\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\bdf31fe3461d772d21217625b93f3b16\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\bdf31fe3461d772d21217625b93f3b16\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\bdf31fe3461d772d21217625b93f3b16\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\bdf31fe3461d772d21217625b93f3b16\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\bdf31fe3461d772d21217625b93f3b16\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\bdf31fe3461d772d21217625b93f3b16\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\bdf31fe3461d772d21217625b93f3b16\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\aefff09d79a288c4d80a35c63057c27c\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\aefff09d79a288c4d80a35c63057c27c\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\v_chaodchen\.gradle\caches\transforms-2\files-2.1\aefff09d79a288c4d80a35c63057c27c\AndroidManifest.xml:32:17-78

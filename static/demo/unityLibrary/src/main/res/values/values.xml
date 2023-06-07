@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <resources>
+  <integer name="game_id">20059</integer>
+  <string name="game_key">9dfc0ed2c072399ec0be1bec2f86017a</string>
+  <string name="open_id">honghonghuohuo_64</string>
+  <string name="new_app_name">AceDemo</string>
+  <string name="package_name">com.tencent.acedemo</string>
+  <string name="region">tersafe2</string>
+  <bool name="is_write_storage">false</bool>
+  <bool name="aac">false</bool>
+  <bool name="apnp">true</bool>
+ </resources>

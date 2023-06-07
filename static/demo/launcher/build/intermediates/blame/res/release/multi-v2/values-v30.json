@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/chaod/Desktop/0x02_Android/demo/launcher/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/home/chaod/Desktop/0x02_Android/demo/launcher/src/main/res/values-v30/freeformwindow.xml",
+                    "from": {
+                        "startLines": "5,6,2,4,3",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "245,320,57,185,123",
+                        "endColumns": "73,71,64,58,60",
+                        "endOffsets": "314,387,117,239,179"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,129,201,266,325",
+                        "endColumns": "73,71,64,58,60",
+                        "endOffsets": "124,196,261,320,381"
+                    }
+                }
+            ]
+        }
+    ]
+}

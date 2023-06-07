@@ -1,0 +1,8 @@
+{
+    "LogPath": "logs/log.log",
+    "outPath": "build/ace-server",
+    "debug": false,
+    "host": "127.0.0.1",
+    "port": 50011,
+    "demoPath": "/home/chaod/Desktop/0x02_Android/demo"
+}
