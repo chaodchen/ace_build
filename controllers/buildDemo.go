@@ -5,7 +5,7 @@ import (
 	"ace-img2/models"
 	"fmt"
 	"log"
-	"net/url"
+	// "net/url"
 	"path/filepath"
 	"strconv"
 
@@ -27,8 +27,8 @@ func BuildDemo(c *gin.Context) {
 		if code == 0 {
 			var outApkPath = filepath.Join(config.Config.DemoPath, "/launcher/build/outputs/apk/release/launcher-release.apk")
 			log.Printf("[%s] outApkPath: %s", pkgName, outApkPath)
-			c.Writer.Header().Set("Content-Disposition", fmt.Sprintf("attachment;filename=%s_%s.apk", url.PathEscape(buildConfig.AppName), buildConfig.SdkVersion))
 
+			c.Writer.Header().Set("Content-Disposition", fmt.Sprintf("attachment;filename=%s_%s.apk", buildConfig.AppName, buildConfig.SdkVersion))
 			c.File(outApkPath)
 		} else {
 			c.String(200, msg)

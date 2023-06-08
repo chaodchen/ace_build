@@ -3,9 +3,9 @@
   <integer name="game_id">20059</integer>
   <string name="game_key">9dfc0ed2c072399ec0be1bec2f86017a</string>
   <string name="open_id">honghonghuohuo</string>
-  <string name="new_app_name">AceDemo</string>
+  <string name="new_app_name">王者荣耀3</string>
   <string name="package_name">com.tencent.acedemo</string>
-  <string name="region">anogs</string>
+  <string name="region">tersafe2</string>
   <bool name="is_write_storage">true</bool>
   <bool name="aac">false</bool>
   <bool name="apnp">true</bool>
