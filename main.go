@@ -5,7 +5,7 @@ import (
 	"ace-img2/routes"
 	"fmt"
 	"log"
-
+    "os"
 	"github.com/gin-gonic/gin"
 )
 
@@ -21,6 +21,23 @@ func init() {
 	// }
 	// log.SetOutput(logFile)
 	// logFile.Close()
+    // create zips acesdks anosdks
+    need_dirs := []string {
+        "static/zips",
+        "static/acesdks",
+        "static/anosdks",
+    }
+    
+    for _, dir := range need_dirs {
+        if _, err := os.Stat(dir); os.IsNotExist(err) {
+            err := os.Mkdir(dir, 0755)
+            if err != nil {
+                log.Println("create need_dir failed.")
+                return
+            }
+        }
+
+    }
 
 	ggin = routes.InitRouter()
 	log.Printf("[%s] main init.\n", pkgName)

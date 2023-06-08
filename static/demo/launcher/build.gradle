@@ -10,7 +10,7 @@ android {
 	
     signingConfigs {
         debug {
-            storeFile file('../../t.keystore')
+            storeFile file('../t.keystore')
             storePassword '123456'
             keyAlias 'chaod'
             keyPassword '123456'

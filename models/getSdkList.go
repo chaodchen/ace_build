@@ -21,7 +21,8 @@ func GetSdkList(sdkVersion string) (int, string, []string) {
 		return 1001, err.Error(), ret
 	}
 	if len(files) < 1 {
-		return 1002, err.Error(), ret
+		// return 1002, err.Error(), ret
+        return 0, "ok", ret
 	}
 
 	for _, item := range files {

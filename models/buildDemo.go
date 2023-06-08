@@ -145,9 +145,12 @@ func BuildDemo(data BuildConfig) (int, string) {
 	// }
 
 	log.Printf("[%s] localSdkJarPath: %s\naceDemoJarPath: %s", pkgName, localSdkJarPath, aceDemoJarPath)
-
-	// 复制jar包
-	if err := tools.CopyFile(localSdkJarPath, aceDemoJarPath); err != nil {
+    if err := tools.DelectExistsFiles(aceDemoJniLibsPath); err != nil {
+        log.Println("delect old acefile failed.")
+        return 4020, err.Error()
+    }
+	// 复制jar包 
+    if err := tools.CopyFile(localSdkJarPath, aceDemoJarPath); err != nil {
 		log.Printf("[%s] 复制文件失败: %s", pkgName, err.Error())
 		return 4010, err.Error()
 	}
@@ -155,7 +158,7 @@ func BuildDemo(data BuildConfig) (int, string) {
 	// 拼接arch
 	var archstr = ""
 	var archs []string
-	if data.Arm32 {
+    if data.Arm32 {
 		archs = append(archs, "armeabi-v7a")
 	}
 
@@ -173,7 +176,6 @@ func BuildDemo(data BuildConfig) (int, string) {
 
 	// 复制libs
 	var fds []os.FileInfo
-	// var err error
 	if fds, err = ioutil.ReadDir(localSdkLibsPath); err != nil {
 		return 4016, err.Error()
 	}
@@ -185,6 +187,11 @@ func BuildDemo(data BuildConfig) (int, string) {
 					srcfp := filepath.Join(localSdkLibsPath, fd.Name())
 					dstfp := filepath.Join(aceDemoJniLibsPath, fd.Name())
 					log.Printf("[%s] srcfp: %s, dstfp: %s", pkgName, srcfp, dstfp)
+                    // delect old libs 
+
+                    if err := tools.DelectExistsFiles(dstfp); err != nil {
+                        log.Println("delect old acesofile failed.")   
+                    }
 					if err := tools.CopyDir(srcfp, dstfp); err != nil {
 						return 4011, err.Error()
 					}

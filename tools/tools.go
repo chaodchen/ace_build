@@ -12,6 +12,7 @@ import (
 	"path"
 	"path/filepath"
 	"strings"
+    "fmt"
 )
 
 func CmdAndChangeDir(dir string, commandName string, params []string) (string, error) {
@@ -52,6 +53,38 @@ func CopyFile(src, dst string) error {
 	return os.Chmod(dst, srcinfo.Mode())
 }
 
+func DelectExistsFiles(src string) error {
+    var err error
+    var fds []os.FileInfo
+    ace_files := []string {
+        "libtersafe2.so", "libanogs.so",
+        "ano.jar", "tp2.jar",
+        "libtprt.so", "libanort.so",
+    }
+
+    if fds, err = ioutil.ReadDir(src); err != nil {
+        return err
+    }
+
+    for _, fd := range fds {
+        if !fd.IsDir() {
+            // is file
+            file_path := filepath.Join(src, fd.Name())
+            fmt.Printf("file_path: %s\n", file_path)
+            
+            if (IsItemInArr(ace_files, fd.Name())) {
+                fmt.Printf("ace_file in IsItemArr: %s\n", fd.Name())
+                err = os.Remove(file_path) 
+                if err != nil {
+                    fmt.Printf("delect file failed.\n")
+                    return err
+                }
+            }
+        } 
+    }
+
+    return nil
+}
 
 func CopyDir(src string, dst string) error {
     var err error

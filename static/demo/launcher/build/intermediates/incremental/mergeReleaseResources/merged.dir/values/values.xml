@@ -9,7 +9,7 @@
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="apnp">true</bool>
-    <bool name="is_write_storage">false</bool>
+    <bool name="is_write_storage">true</bool>
     <color name="abc_decor_view_status_guard">#ff000000</color>
     <color name="abc_decor_view_status_guard_light">#ffffffff</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -307,9 +307,9 @@
     <string name="game_key">9dfc0ed2c072399ec0be1bec2f86017a</string>
     <string name="game_view_content_description">Game view</string>
     <string name="new_app_name">AceDemo</string>
-    <string name="open_id">honghonghuohuo_64</string>
+    <string name="open_id">honghonghuohuo</string>
     <string name="package_name">com.tencent.acedemo</string>
-    <string name="region">tersafe2</string>
+    <string name="region">anogs</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+        <title>Ace在线工具</title>
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <!-- Don't use this in production: -->
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <div>
+            <!-- <h2>1. 当前支持ace版本：</h2> -->
+            <div id="root"></div>
+            <script type="text/babel">
+				
+				class Home extends React.Component{
+					state = {
+						sdkList: ['error'],
+						sdkRegion: ["tersafe2", "anogs"],
+						// 内置openid信息
+						sdkInfos: {
+							tersafe2: [
+								[20059,"9dfc0ed2c072399ec0be1bec2f86017a", "AceDemo", "com.tencent.acedemo"],
+								[19677,"1ec74fb7dd1daefc1ed03a9554bc5597", "JinshaDemo", "com.tencent.jinsha"],
+								[20109,"ebe239a841af8cf3f51f5e5be4bc2840", "AceDemo", "com.tencent.acedemo"],
+								[19675,"c9c0cf82924a2d393ee669b94049da25", "王牌战争", "com.yingxiong.hero"],
+								[19386,"699486f8e08e8787aeff14066be16bef", "逃跑吧！少年", "com.bairimeng.dmmdzz"],
+								[20162,"8533d85df9cf99c76531b1cd2f210ee0", "地铁跑酷", "com.kiloo.subwaysurf"],
+								[20251,"57793ba10c6980d486be43c5f5b45251", "时空猎人3", "com.bilibili.hunter3"]
+							],
+							anogs: [
+								[20109,"ebe239a841af8cf3f51f5e5be4bc2840", "AnoDemo", "com.tencent.anodemo"],
+								[20157,"198bd51f584088f2ef524f4535b72120", "赛马娘", "com.komoe.kmumamusumegp"],
+								[24015,"b3f9821356dd849c99a6192717bef354", "吞食天地3：放置版", "com.a.three.ts"]
+							]
+						},
+						postData: {
+							gameId: "",
+							gameKey: "",
+							openId: "",
+							isWrite: true,
+							sdkVersion: "",
+							sdkRegion: "",
+							arm32: true,
+							arm64: false,
+							x86: false,
+							x86_64: false,
+							packageName: "",
+							appName: "",
+							aac: false,
+							apnp: false,
+							nowTime: ""
+						}
+					}
+
+					constructor(props) {
+						super(props)
+						this.state.postData.sdkRegion = this.state.sdkRegion[0]
+						this.updata()
+					}
+
+					updata = () => {
+						axios.get('/api/getSdkList?sdkVersion='+this.state.postData.sdkRegion).then((data) => {
+							if (data != null) {
+								this.setState(v => ({sdkList: data.data.data}), () => {
+									console.log("makedata", this.state.sdkList)
+									this.setState({
+										postData: {
+											...this.state.postData,
+											sdkVersion: data.data.data[0]
+										}
+									})
+								})
+							}
+						}).catch((err) => {
+							console.log("geterr: ", err)
+						})
+					}
+
+					changeSelect = (item) => {
+						console.log("item: %s", item.target.value)
+						if (item.target.name == "sdkRegion") {
+							this.state.postData.sdkRegion = item.target.value
+							this.updata()
+						}else if (item.target.name == "sdkVersion") {
+							this.state.postData.sdkVersion = item.target.value
+							console.log("sdkVersion: %s", item.target.value)
+						}
+					}
+
+					onCheck = (item) => {
+						let view = item.target
+						if (view != null) {
+							this.setState({
+								postData: {
+									...this.state.postData,
+									[view.name]: view.checked,
+								}
+							})
+						}
+					}
+
+					changeInput = (item) => {
+						let view = item.target
+
+						this.setState({
+							postData: {
+								...this.state.postData,
+								[view.name]: view.value,
+							}
+						})
+						switch (view.name) {
+							case "gameId":
+								console.log("value: %s", view.value)
+
+								if (view.value.length == 5) {
+									console.log("value: %s", view.value)
+									let tempGameKey = ""
+									for (let info in this.state.sdkInfos[this.state.postData.sdkRegion]) {
+										console.log(info)
+										let tempInfo = this.state.sdkInfos[this.state.postData.sdkRegion][info]
+										console.log(tempInfo)
+										
+										if (Number(view.value) == tempInfo[0]) {
+											console.log("正确")
+											console.log(tempInfo[1])
+											// this.state.postData.gameKey = tempInfo[1] || ""
+											this.setState({
+												postData: {
+													...this.state.postData,
+													gameId: tempInfo[0] || "",
+													gameKey: tempInfo[1] || "",
+													appName: tempInfo[2] || "",
+													packageName: tempInfo[3] || "",
+													openId: "honghonghuohuo"
+
+												}
+											})
+											break
+										}
+									}
+								}
+								break
+							case "gameKey":
+								if (view.value.length == 32) {
+									this.state.postData.gameKey = view.value
+								}
+								break
+							default:
+								console.log()
+						}
+					}
+
+					onStart = (item) =>{
+						console.log("start")
+						console.log(this.state.postData)
+
+						if (item.target.name == "BuildDemo") {
+							axios.post('/api/buildDemo', this.state.postData, {responseType: 'blob'}).then((response) => {
+								if (response != null && response.status === 200) {
+									console.log("编译成功.")
+									/* 从请求头中获取文件名称,用于将文件流转换成对应文件格式的文件,防止文件损坏 */
+									let split = response.headers['content-disposition'].split("=");
+									/* 将数据流转换为对应格式的文件,并创建a标签,模拟点击下载,实现文件下载功能 */
+									let fileReader = new FileReader();
+									fileReader.readAsDataURL(response.data);
+									fileReader.onload = e => {
+										let a = document.createElement('a');
+										a.download = split[1];
+										a.href = e.target.result;
+										document.body.appendChild(a);
+										a.click();
+										document.body.removeChild(a);
+									}
+								}
+							}).catch((err) => {
+								console.log("buildDemo: ", err)
+							})
+						}
+					}
+
+					render() {
+						return (
+							<>
+								<h1>AceSdk列表</h1>
+								<ul>
+									{
+										this.state.sdkList.map((item, index) => {
+											return <li key={index}>{item}</li>
+										})
+									}
+								</ul>
+								<hr />
+								<h1>上传sdk</h1>
+								<form method="post" action="/api/upLoadSdk" encType="multipart/form-data">
+									<input type="file" name="file" />
+									<br />
+									<input type="submit" value="Go" />
+								</form>
+								<hr />
+
+								<form method="get" action="/api/getEnableDat">
+									Sign: <input type="text" name="sign" />
+									<br />
+									<input type="submit" value="MakeEnableDat"/>
+								</form>
+
+								<hr />	
+								<h1>编译AceDemo</h1>
+								<div>
+									GameId: <input type="text" name="gameId" onChange={(e)=>this.changeInput(e)} value={this.state.postData.gameId}/>
+									<br />
+									GameKey: <input type="text" name="gameKey" onChange={(e)=>this.changeInput(e)} value={this.state.postData.gameKey}/>
+									<br />
+									OpenId: <input type="text" name="openId" onChange={(e)=>this.changeInput(e)} value={this.state.postData.openId} />
+									<br />
+									StorageReadAndWrite: <input type="checkbox" name="isWrite" onChange={(e) => {this.onCheck(e)}} defaultChecked={this.state.postData.isWrite}/>
+									<br />
+									ReleaseRegion: <select onChange={this.changeSelect} name="sdkRegion">{
+										this.state.sdkRegion.map((item, index) => {
+											return <option key={index} value={item}>{item}</option>
+										})
+									}</select>
+									
+									<br />
+									SdkVersion: <select name="sdkVersion" onChange={this.changeSelect}>{
+										this.state.sdkList.map((item, index) => {
+											let nowItem = item
+
+											return <option key={index} value={nowItem}>{nowItem}</option>
+										})
+									}</select>
+									<br />
+									Architecture: 
+									<input type="checkbox" name="arm32" onChange={(e) => {this.onCheck(e)}} defaultChecked={this.state.postData.arm32}/>
+									<label>armeabi-v7a</label>
+									<input type="checkbox" name="arm64" onChange={(e) => {this.onCheck(e)}} defaultChecked={this.state.postData.arm64} />
+									<label>arm64-v8a</label>
+									<input type="checkbox" name="x86" onChange={(e) => {this.onCheck(e)}} defaultChecked={this.state.postData.x86} />
+									<label>x86</label>
+									<input type="checkbox" name="x86_64" onChange={(e) => {this.onCheck(e)}} defaultChecked={this.state.postData.x86_64} />
+									<label>x86_64</label>
+									<br />
+									PackageName: <input type="text" onChange={this.changeInput} value={this.state.postData.packageName} name="packageName" />
+									<br />
+									AppName: <input type="text" onChange={this.changeInput} value={this.state.postData.appName} name="appName" />
+									<br />
+
+									AllowAPKCollect: <input type="checkbox" name="aac" onChange={(e) => {this.onCheck(e)}} defaultChecked={this.state.postData.aac} />
+									<br />
+									AllowAPKCollect-NeedPop: <input type="checkbox" name="apnp" onChange={(e) => {this.onCheck(e)}} defaultChecked={this.state.postData.apnp}/>
+									<br />
+									<input type="button" value="BuildDemo" name="BuildDemo" onClick={(e) => this.onStart(e)}/>
+								</div>
+								
+								<hr />
+								<h1>帮助 23.21</h1>
+								<p>1. if you need a random openid. enter random in openIdInputView </p>
+								<p>2. do not change the propName </p>
+								<p>3. if aceSdkList does not have the sdk version you need.look UploadSdk </p>
+							</>
+						)
+					}
+				}
+				
+				const container = document.getElementById('root')
+				const root = ReactDOM.createRoot(container)
+				root.render(<Home />)
+
+
+            </script>
+        </div>
+    </body>
+</html>
