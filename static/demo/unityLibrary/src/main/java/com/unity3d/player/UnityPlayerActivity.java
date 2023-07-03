@@ -77,6 +77,8 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
                             new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
                             REQUEST);
                 }
+            } else {
+                doRun();
             }
         } catch (Exception e) {
             e.printStackTrace();
